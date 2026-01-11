@@ -1,41 +1,45 @@
 # Customer Churn Prediction
 
+This project focuses on predicting customer churn using machine learning techniques and exploratory data analysis on the Telco Customer Churn dataset.
+
 ## Overview
-This project builds an end-to-end machine learning pipeline to predict customer churn using telecom customer data. The goal is to identify high-risk customers and support data-driven retention strategies.
+Customer churn directly impacts business revenue and growth. This project aims to identify key churn drivers and build predictive models to support data-driven retention strategies.
 
 ## Dataset
-Telco Customer Churn Dataset with 7,043 records and 21 features including customer demographics, services, billing details, and churn status.
+- Telco Customer Churn Dataset
+- 7,043 customer records
+- 21 features including demographic, service usage, and billing information
+
+## Key Steps
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA) using multiple visualizations
+- Categorical feature encoding and feature engineering
+- Model training using Logistic Regression and Random Forest
+- Model evaluation using accuracy, confusion matrix, and classification report
+- Creation of a single-page visualization dashboard summarizing churn patterns
+
+## Models Used
+- Logistic Regression (~82% accuracy)
+- Random Forest (~80% accuracy)
+
+## Key Insights
+- Month-to-month contracts exhibit significantly higher churn rates
+- Higher monthly charges are associated with increased churn
+- Contract type, tenure, and billing method are strong churn indicators
 
 ## Tools & Technologies
 - Python
 - Pandas, NumPy
 - Scikit-learn
-- VS Code
+- Matplotlib, Seaborn
 
-## Data Preprocessing
-- Converted target variable (Churn) from Yes/No to 1/0
-- Removed non-informative features
-- Encoded categorical variables using one-hot encoding
-- Performed train-test split (80/20)
+## Output
+- Predictive churn models
+- Feature importance analysis
+- Visualization dashboard for business interpretation
 
-## Models Implemented
-- Logistic Regression
-- Random Forest Classifier
+## Author
+Final-year MSc Data Science student actively seeking analytics and data science internship opportunities.
 
-## Model Evaluation
-- Accuracy
-- Confusion Matrix
-- Classification Report
 
-## Results
-- Logistic Regression achieved ~82% accuracy and performed better on high-dimensional data
-- Random Forest slightly underperformed due to feature dimensionality
-
-## Business Insights
-- Month-to-month contract customers are more likely to churn
-- High monthly charges increase churn risk
-- Short-tenure customers require early retention efforts
-
-## Conclusion
-Logistic Regression proved to be the most effective model for churn prediction in this dataset and can help businesses proactively reduce customer attrition.
 
