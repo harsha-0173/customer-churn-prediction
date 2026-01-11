@@ -43,20 +43,13 @@ Final-year MSc Data Science student actively seeking analytics and data science 
 
 ## Visual Insights
 
-### Churn Distribution
-![Churn Distribution](charts/churn_distribution.png)
-
-### Contract Type vs Churn
-![Contract vs Churn](charts/contract_vs_churn.png)
-
-### Monthly Charges vs Churn
-![Monthly Charges vs Churn](charts/monthly_charges_vs_churn.png)
+### Churn Analysis Dashboard
+![Churn Dashboard](charts/churn_dashboard.png)
 
 ### Feature Importance (Random Forest)
 ![Feature Importance](charts/feature_importance_rf.png)
 
-### Churn Analysis Dashboard
-![Churn Dashboard](charts/churn_dashboard.png)
+
 
 
 
