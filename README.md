@@ -46,8 +46,14 @@ Final-year MSc Data Science student actively seeking analytics and data science 
 ### Churn Analysis Dashboard
 ![Churn Dashboard](charts/churn_dashboard.png)
 
+### Correlation Heatmap
+![Correlation Heatmap](charts/correlation_heatmap.png)
+
 ### Feature Importance (Random Forest)
 ![Feature Importance](charts/feature_importance_rf.png)
+
+
+
 
 
 
